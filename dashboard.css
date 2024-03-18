@@ -1,0 +1,64 @@
+body{
+    color: black;
+    font-family: lora, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+}
+
+.menu{
+    background-color: white;
+    position: fixed;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    bottom: auto;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.dashboardgirlpic{
+    background-color: white;
+    height: 36px;
+    width: 25px;
+}
+
+.nav-brand-wordmark{
+
+    margin-left: 25px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.nav-left{
+    background-color: white;
+    display: flex;
+}
+
+.nav-right{
+    background-color: white;
+    display: flex;
+    margin-left: 800px;
+}
+
+.new-link-wrapper{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 5px;   
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.image{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    z-index: 10000;
+    pointer-events: none;
+    flex-direction: column;
+    display: flex;
+    padding-top: 100px;
+}
+
